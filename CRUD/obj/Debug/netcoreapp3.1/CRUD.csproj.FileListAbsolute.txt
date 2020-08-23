@@ -109,3 +109,12 @@ C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\
 C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\obj\Debug\netcoreapp3.1\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\MAX\OneDrive\Documentos\Proyectos\CrudApi\CRUD\obj\Debug\netcoreapp3.1\CRUD.MvcApplicationPartsAssemblyInfo.cache
