@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAX\\OneDrive\\Documentos\\Proyectos\\CRUD\\CRUD\\CRUD.csproj",
+      "projectUniqueName": "C:\\Users\\MAX\\OneDrive\\Documentos\\Proyectos\\CrudApi\\CRUD\\CRUD.csproj",
       "projectName": "CRUD",
-      "projectPath": "C:\\Users\\MAX\\OneDrive\\Documentos\\Proyectos\\CRUD\\CRUD\\CRUD.csproj",
+      "projectPath": "C:\\Users\\MAX\\OneDrive\\Documentos\\Proyectos\\CrudApi\\CRUD\\CRUD.csproj",
       "packagesPath": "C:\\Users\\MAX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAX\\OneDrive\\Documentos\\Proyectos\\CRUD\\CRUD\\obj\\",
+      "outputPath": "C:\\Users\\MAX\\OneDrive\\Documentos\\Proyectos\\CrudApi\\CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
