@@ -40,7 +40,7 @@ namespace CRUD.Controllers
         }
 
         [HttpPut]
-        public ActionResult Post([FromBody] Models.Request.EmpleadosEditRequest model)
+        public ActionResult Put([FromBody] Models.Request.EmpleadosEditRequest model)
         {
             using (Models.ControlEmpleadosContext db = new Models.ControlEmpleadosContext())
             {
@@ -56,12 +56,12 @@ namespace CRUD.Controllers
         }
 
         [HttpDelete]
-        public ActionResult Post(int IdEmp)
+        public ActionResult Delete([FromBody] Models.Request.EmpleadosEditRequest model)
         {
             using (Models.ControlEmpleadosContext db = new Models.ControlEmpleadosContext())
             {
-                Models.TbEmpleados oEmpleados = db.TbEmpleados.Find(IdEmp);
-                db.TbEmpleados.Remove(oEmpleados);
+                Models.TbEmpleados oEmpleados = db.TbEmpleados.Find(model.IdEmp);
+                db.TbEmpleados.Remove(oEmpleados); //Eliminar registro
                 db.SaveChanges(); //Guardar cambios en la base de datos 
             }
 
