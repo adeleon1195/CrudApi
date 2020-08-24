@@ -9,7 +9,7 @@ namespace CRUD.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [EnableCors("permitir")]
+    //[EnableCors("permitir")]
 
     public class EmpleadosController : Controller
     {
