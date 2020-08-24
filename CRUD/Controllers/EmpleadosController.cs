@@ -18,7 +18,7 @@ namespace CRUD.Controllers
         {
             using (Models.ControlEmpleadosContext db = new Models.ControlEmpleadosContext()) //Coneccion a la BD 
             {
-                var lst = (from d in db.TbDepartamentos
+                var lst = (from d in db.TbEmpleados
                            select d).ToList();
 
                 return Ok(lst); //Convierte automaticamente a un JSON
@@ -34,6 +34,7 @@ namespace CRUD.Controllers
                 oEmpleados.CodigoEmp = model.CodigoEmp;
                 oEmpleados.NombreEmp = model.NombreEmp;
                 oEmpleados.ApellidoEmp = model.ApellidoEmp;
+                oEmpleados.IdDepto = model.idDepto;
                 db.TbEmpleados.Add(oEmpleados); //Insert
                 db.SaveChanges(); //Guardar cambios en la base de datos 
             }

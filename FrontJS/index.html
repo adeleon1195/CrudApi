@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible" content="IE-edge'>
+    <title>EMPLEADOS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    
+    <h1>Empleados</h1>
+
+</body>
+</html>
+
+<script>
+var url="https://localhost:5001/api/Empleados";
+
+//Get();
+
+//function Get(){
+        fetch(url).then(function(response){
+        return response.json();
+    }).then(function(MyJason){
+        console.log(MyJason);
+        /*document.getElementById("divLista").innerHTML="";
+        let divElement = document.createElement("div");
+        divElement.innerHTML = Data[0].nombre;
+        document.getElementById("divLista").appendChild(divElement);*/
+    })
+//}
+
+</script>
