@@ -55,6 +55,19 @@ namespace CRUD.Controllers
             return Ok();
         }
 
+        [HttpDelete]
+        public ActionResult Post(int IdEmp)
+        {
+            using (Models.ControlEmpleadosContext db = new Models.ControlEmpleadosContext())
+            {
+                Models.TbEmpleados oEmpleados = db.TbEmpleados.Find(IdEmp);
+                db.TbEmpleados.Remove(oEmpleados);
+                db.SaveChanges(); //Guardar cambios en la base de datos 
+            }
+
+            return Ok();
+        }
+
         public IActionResult Index()
         {
             return View();
