@@ -39,6 +39,22 @@ namespace CRUD.Controllers
             return Ok();
         }
 
+        [HttpPut]
+        public ActionResult Post([FromBody] Models.Request.EmpleadosEditRequest model)
+        {
+            using (Models.ControlEmpleadosContext db = new Models.ControlEmpleadosContext())
+            {
+                Models.TbEmpleados oEmpleados = db.TbEmpleados.Find(model.IdEmp);
+                oEmpleados.CodigoEmp = model.CodigoEmp;
+                oEmpleados.NombreEmp = model.NombreEmp;
+                oEmpleados.ApellidoEmp = model.ApellidoEmp;
+                db.Entry(oEmpleados).State = Microsoft.EntityFrameworkCore.EntityState.Modified; //Update
+                db.SaveChanges(); //Guardar cambios en la base de datos 
+            }
+
+            return Ok();
+        }
+
         public IActionResult Index()
         {
             return View();
